@@ -16,7 +16,7 @@ public class GradeCalculationLab5{
             grades = 'B';
         }else if(marks >= 70){
             grades = 'C';
-        }else if(grades >= 60){
+        }else if(marks >= 60){
             grades = 'D';
         }else{
             grades = 'F';
