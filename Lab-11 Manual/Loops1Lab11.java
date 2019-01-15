@@ -4,7 +4,7 @@ public class Loops1Lab11{
   public static void main(String [] args){
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter your age: ");
-    int age = sc.nextInt(),
+    double age = sc.nextInt(),
         sum = 0,
         count = 1,
         largest = age,
@@ -20,7 +20,10 @@ public class Loops1Lab11{
       System.out.print("Enter your age: ");
       age = sc.nextInt();
     }
-    double avg = sum / count;
+    avg = sum / count;
     System.out.print("Average of age is: " + avg);
+    System.out.print("\n Largest Number is "+ largest);
+    System.out.print("\n Smallest Number is "+ smallest);
+    System.out.pritn("\n Range is between " + smallest + " and " + largest);
   }
 }
