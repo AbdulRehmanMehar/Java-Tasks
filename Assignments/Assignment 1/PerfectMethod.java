@@ -10,9 +10,9 @@ public class PerfectMethod{
     int sum = 0;
     for(int i = 1; i < number; i++){
       if(number % i == 0){
-        printPerfect(i);
         sum += i;
       }
+      printPerfect(i);
     }
     if(sum == number){
       System.out.println("Entered Number " + number + " is perfect.");
