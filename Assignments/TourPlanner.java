@@ -50,7 +50,7 @@ public class TourPlanner{
 
 		System.out.println("If you are travelling for "+days+" days that is the same as "+(days * 24)+" hours or "+(days * 24 * 60)+" minutes");
 		System.out.println("If you are going to spend $ "+((int) budget)+" USD that means per day you can spend up to $ "+((int) (budget/days))+" USD per day");
-		System.out.println("Your total budget in PKR is "+((int) budInGivenCurrency)+" PKR, which per day is "+((int) (budInGivenCurrency/days))+" PKR");
+		System.out.println("Your total budget in "+ currency.toUpperCase() +" is "+((int) budInGivenCurrency)+" "+ currency.toUpperCase() +", which per day is "+((int) (budInGivenCurrency/days))+" "+ currency.toUpperCase());
 		System.out.println("***************************************");
 	}
 	public static void time(Scanner sc){
